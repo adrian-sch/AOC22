@@ -9,7 +9,8 @@
                 "/EHsc",
                 "/nologo",
                 "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
+                "${file}",
+                "${workspaceFolder}\\utils\\utils.cpp"
             ],
             "options": {
                 "cwd": "${fileDirname}"
